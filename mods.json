@@ -1,34 +1,54 @@
 {
     "mods": {
         "SAIN": {
-            "name": "SAIN",
             "version": "3.2.1",
             "release": ["Server", "Client"],
             "skipFolder": 3,
-            "lastUpdate": "2024-12-24",
-            "hash": "b14c0c6faeec94eb0d74b21e8f98f3de60a4fabcaa849a08c4c5c887f7e839e2",
-            "download_url": "https://example.com/mods/SAIN.zip",
+            "standalone": "no",
+            "lastUpdate": "12-24-24",
+            "hash": "abc123def456ghi789jkl012mno345pqr678stu901vwx234yza567bcd890efg",
+            "download_url": "https://example.com/SAIN.zip",
             "file_name": "SAIN.zip"
         },
         "LootOverhaul": {
-            "name": "LootOverhaul",
-            "version": "4.5.0",
+            "version": "1.5.0",
             "release": ["Client"],
             "skipFolder": 2,
-            "lastUpdate": "2024-12-20",
-            "hash": "0d4e98f1f6a0e1cce2e3144e4413b7762a9090ff840e8a4de3c7bff6b5a3c4ab",
-            "download_url": "https://example.com/mods/LootOverhaul.zip",
+            "standalone": "no",
+            "lastUpdate": "12-20-24",
+            "hash": "hij123klm456nop789qrs012tuv345wxy678zab901cde234fgh567ijk890lmn",
+            "download_url": "https://example.com/LootOverhaul.zip",
             "file_name": "LootOverhaul.zip"
         },
         "CustomQuests": {
-            "name": "CustomQuests",
-            "version": "1.0.0",
+            "version": "4.0.0",
             "release": ["Server"],
             "skipFolder": 0,
-            "lastUpdate": "2024-12-22",
-            "hash": "23d1e6fa27f3ef81b9036c72f08b91a34542a5ec734123ff25aef392b2a19a4d",
-            "download_url": "https://example.com/mods/CustomQuests.zip",
+            "standalone": "no",
+            "lastUpdate": "12-10-24",
+            "hash": "opq123rst456uvw789xyz012abc345def678ghi901jkl234mno567pqr890stu",
+            "download_url": "https://example.com/CustomQuests.zip",
             "file_name": "CustomQuests.zip"
+        },
+        "SimpleMod": {
+            "version": "1.0.0",
+            "release": ["Client"],
+            "skipFolder": 0,
+            "standalone": "yes",
+            "lastUpdate": "12-15-24",
+            "hash": "lmn123opq456rst789uvw012xyz345abc678def901ghi234jkl567mno890pqr",
+            "download_url": "https://example.com/SimpleMod.dll",
+            "file_name": "SimpleMod.dll"
+        },
+        "ServerOnlyMod": {
+            "version": "2.3.1",
+            "release": ["Server"],
+            "skipFolder": 0,
+            "standalone": "yes",
+            "lastUpdate": "12-05-24",
+            "hash": "xyz123abc456def789ghi012jkl345mno678pqr901stu234vwx567yz890abc",
+            "download_url": "https://example.com/ServerOnlyMod.dll",
+            "file_name": "ServerOnlyMod.dll"
         }
     }
 }
